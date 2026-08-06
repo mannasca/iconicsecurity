@@ -5,10 +5,10 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_right,_rgba(255,255,255,0.85),_transparent_42%),radial-gradient(circle_at_20%_25%,_rgba(185,138,50,0.18),_transparent_26%),radial-gradient(circle_at_80%_15%,_rgba(201,80,46,0.12),_transparent_24%)]" />
-      <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 md:grid-cols-2 md:py-24">
+      <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 sm:px-6 sm:py-16 md:grid-cols-2 md:py-24">
         <div className="max-w-xl">
-          <h1 className="mt-4 font-[family-name:var(--font-body)] text-6xl font-light uppercase tracking-tight text-gold md:text-7xl">
-            Security
+          <h1 className="mt-4 font-[family-name:var(--font-body)] text-5xl font-bold uppercase tracking-tight text-gold sm:text-6xl md:text-7xl">
+            Iconic Security
           </h1>
           <p className="mt-2 font-[family-name:var(--font-display)] text-2xl italic text-slate md:text-3xl">
             That&rsquo;s what we live for.
@@ -34,9 +34,9 @@ export default function Hero() {
           <p className="mt-3 text-xs text-slate/50">Don&rsquo;t worry, it&rsquo;s free.</p>
         </div>
         <div className="flex justify-center md:justify-end">
-          <div className="relative w-full max-w-md rounded-[2rem] border border-white/70 bg-white/75 p-6 shadow-[0_24px_60px_rgba(24,23,23,0.14)] backdrop-blur-xl">
+          <div className="relative w-full max-w-sm rounded-[2rem] border border-white/70 bg-white/75 p-4 shadow-[0_24px_60px_rgba(24,23,23,0.14)] backdrop-blur-xl sm:max-w-md sm:p-6">
             <div className="absolute inset-x-8 top-0 h-px bg-gradient-to-r from-transparent via-gold/60 to-transparent" />
-            <Image src="/logo.png" alt="Iconic Security" width={320} height={415} priority className="mx-auto" />
+            <Image src="/logo.png" alt="Iconic Security" width={320} height={415} priority className="mx-auto h-auto w-full max-w-[280px] sm:max-w-[320px]" />
           </div>
         </div>
       </div>
