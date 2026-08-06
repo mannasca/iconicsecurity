@@ -12,11 +12,11 @@ export default function PageHero({
   const accentClass = accent === "clay" ? "text-clay" : "text-gold";
   return (
     <section className="border-b border-white/10 bg-ink text-paper">
-      <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 md:py-20">
         <p className={`font-[family-name:var(--font-mono)] text-xs uppercase tracking-[0.2em] ${accentClass}`}>
           {eyebrow}
         </p>
-        <h1 className="mt-4 max-w-2xl font-[family-name:var(--font-display)] text-4xl leading-tight text-gold md:text-5xl">
+        <h1 className="mt-4 max-w-2xl font-[family-name:var(--font-display)] text-3xl leading-tight text-gold sm:text-4xl md:text-5xl">
           {title}
         </h1>
         {description ? <p className="mt-4 max-w-xl text-paper/70">{description}</p> : null}

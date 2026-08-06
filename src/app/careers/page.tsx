@@ -16,7 +16,7 @@ export default async function CareersPage() {
         accent="none"
       />
 
-      <section className="mx-auto max-w-6xl px-6 py-16">
+      <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         <div className="grid gap-6 md:grid-cols-2">
         <article className="rounded-3xl border border-white/70 bg-white/85 p-8 shadow-[0_20px_50px_rgba(24,23,23,0.08)] backdrop-blur-sm md:p-10">
           <p className="font-[family-name:var(--font-mono)] text-xs uppercase tracking-[0.28em] text-gold">

@@ -32,7 +32,7 @@ export default function SiteForm({
 
   if (status === "sent") {
     return (
-      <div className="border border-line rounded-sm p-6 bg-white">
+      <div className="w-full border border-line rounded-sm p-6 bg-white">
         <p className="font-[family-name:var(--font-display)] text-lg text-ink">Thanks — that&rsquo;s been sent.</p>
         <p className="mt-1 text-sm text-slate/70">We&rsquo;ll get back to you shortly.</p>
       </div>
@@ -40,7 +40,7 @@ export default function SiteForm({
   }
 
   return (
-    <form onSubmit={handleSubmit} action={action} method="POST" className="space-y-5 max-w-lg">
+    <form onSubmit={handleSubmit} action={action} method="POST" className="w-full space-y-5 max-w-lg">
       {fields.map((field) => (
         <div key={field.name}>
           <label htmlFor={field.name} className="block text-sm font-medium text-ink mb-1.5">

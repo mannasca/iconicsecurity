@@ -19,7 +19,7 @@ export default async function ContactPage() {
         description={`${settings.phone} · ${settings.email}`}
         accent="none"
       />
-      <section className="mx-auto max-w-6xl px-6 py-16 grid md:grid-cols-2 gap-12">
+      <section className="mx-auto grid max-w-6xl gap-12 px-4 py-12 sm:px-6 sm:py-16 md:grid-cols-2">
         <SiteForm
           submitLabel="Send message"
           fields={[

@@ -16,7 +16,7 @@ export default function AboutPage() {
         accent="none"
       />
 
-      <section className="mx-auto max-w-6xl px-6 py-16">
+      <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         <div className="grid gap-6 lg:grid-cols-[1.4fr_0.9fr]">
           <article className="rounded-3xl border border-white/70 bg-white/80 p-8 shadow-[0_20px_50px_rgba(24,23,23,0.08)] backdrop-blur-sm md:p-10">
             <p className="font-[family-name:var(--font-mono)] text-xs uppercase tracking-[0.28em] text-slate/55">
@@ -54,20 +54,20 @@ export default function AboutPage() {
             </p>
             <ul className="mt-6 space-y-5 text-paper/80">
               <li>
-                <span className="block text-base font-semibold text-paper">Professional presence</span>
+                <span className="block text-base font-semibold text-gold">Professional presence</span>
                 <span className="mt-1 block leading-7">
                   Uniformed officers who reinforce confidence and maintain a polished site image.
                 </span>
               </li>
               <li>
-                <span className="block text-base font-semibold text-paper">Operational discipline</span>
+                <span className="block text-base font-semibold text-gold">Operational discipline</span>
                 <span className="mt-1 block leading-7">
                   Policies built around customer service, health and safety, quality management,
                   and environmental control.
                 </span>
               </li>
               <li>
-                <span className="block text-base font-semibold text-paper">Client satisfaction</span>
+                <span className="block text-base font-semibold text-gold">Client satisfaction</span>
                 <span className="mt-1 block leading-7">
                   We aim to deliver steady, courteous service that reflects well on every property.
                 </span>

@@ -28,7 +28,7 @@ export default async function ServicesPage() {
         accent="none"
       />
 
-      <section className="mx-auto max-w-6xl px-6 py-16">
+      <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
             <p className="font-[family-name:var(--font-mono)] text-xs uppercase tracking-[0.28em] text-gold">

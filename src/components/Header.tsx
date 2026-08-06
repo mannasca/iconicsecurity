@@ -18,11 +18,11 @@ export default function Header() {
   return (
     <header className="sticky top-4 z-50">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="flex items-center justify-between gap-6 rounded-3xl border border-white/70 bg-white/80 px-5 py-3 shadow-[0_18px_50px_rgba(24,23,23,0.12)] backdrop-blur-xl supports-[backdrop-filter]:bg-white/70">
+        <div className="flex flex-col items-center gap-3 rounded-3xl border border-white/70 bg-white/80 px-4 py-3 shadow-[0_18px_50px_rgba(24,23,23,0.12)] backdrop-blur-xl supports-[backdrop-filter]:flex-row supports-[backdrop-filter]:items-center supports-[backdrop-filter]:justify-between sm:px-5">
           <Link href="/" className="flex items-center gap-3 shrink-0">
-            <Image src="/logo.png" alt="Iconic Security" width={44} height={57} priority />
+            <Image src="/logo.png" alt="Iconic Security" width={44} height={57} />
           </Link>
-          <nav aria-label="Main navigation" className="flex flex-wrap items-center justify-end gap-2 text-xs font-medium sm:text-sm">
+          <nav aria-label="Main navigation" className="flex w-full flex-wrap items-center justify-center gap-2 text-[11px] font-medium sm:w-auto sm:justify-end sm:text-sm">
             {navLinks.map((link) => (
               <Link
                 key={link.href}

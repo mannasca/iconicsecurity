@@ -34,10 +34,14 @@ export default function Hero() {
           <p className="mt-3 text-xs text-slate/50">Don&rsquo;t worry, it&rsquo;s free.</p>
         </div>
         <div className="flex justify-center md:justify-end">
-          <div className="relative w-full max-w-sm rounded-[2rem] border border-white/70 bg-white/75 p-4 shadow-[0_24px_60px_rgba(24,23,23,0.14)] backdrop-blur-xl sm:max-w-md sm:p-6">
-            <div className="absolute inset-x-8 top-0 h-px bg-gradient-to-r from-transparent via-gold/60 to-transparent" />
-            <Image src="/logo.png" alt="Iconic Security" width={320} height={415} priority className="mx-auto h-auto w-full max-w-[280px] sm:max-w-[320px]" />
-          </div>
+          <Image
+            src="/logo.png"
+            alt="Iconic Security"
+            width={320}
+            height={415}
+            priority
+            className="h-auto w-full max-w-[280px] sm:max-w-[320px]"
+          />
         </div>
       </div>
     </section>

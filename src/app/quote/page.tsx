@@ -16,7 +16,7 @@ export default function QuotePage() {
         description="Condo, retail, or something else — we'll follow up with a proposal that fits."
         accent="none"
       />
-      <section className="mx-auto max-w-6xl px-6 py-16">
+      <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
         <SiteForm
           submitLabel="Request quote"
           fields={[

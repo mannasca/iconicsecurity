@@ -32,7 +32,7 @@ export default function RetailPage() {
         accent="clay"
       />
 
-      <section className="mx-auto max-w-6xl px-6 py-16 grid md:grid-cols-3 gap-8">
+      <section className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:px-6 sm:py-16 md:grid-cols-3">
         {pillars.map((p) => (
           <div key={p.title}>
             <h3 className="font-[family-name:var(--font-display)] text-xl text-ink">{p.title}</h3>
@@ -41,8 +41,8 @@ export default function RetailPage() {
         ))}
       </section>
 
-      <section className="bg-white border-y border-line">
-        <div className="mx-auto max-w-6xl px-6 py-16">
+      <section className="border-y border-line bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
           <h2 className="font-[family-name:var(--font-display)] text-2xl text-ink">What a typical engagement looks like</h2>
           <p className="mt-3 text-slate/80 max-w-2xl">
             {/* TODO: replace with real detail / case study once available */}
