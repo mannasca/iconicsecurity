@@ -34,7 +34,7 @@ export default async function CareersPage() {
             applications will be considered. Thank you.
           </p>
           <a
-            href="#"
+            href="/careers/open-positions#application"
             className="mt-8 inline-flex rounded-full bg-slate px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-paper transition-colors hover:bg-gold"
           >
             Apply Now
@@ -56,7 +56,7 @@ export default async function CareersPage() {
             schedulers online from the panel on your left.
           </p>
           <a
-            href="#open-positions"
+            href="/careers/open-positions"
             className="mt-8 inline-flex rounded-full bg-slate px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-paper transition-colors hover:bg-gold"
           >
             Open Positions
