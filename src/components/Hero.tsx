@@ -7,9 +7,6 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_right,_rgba(255,255,255,0.85),_transparent_42%),radial-gradient(circle_at_20%_25%,_rgba(185,138,50,0.18),_transparent_26%),radial-gradient(circle_at_80%_15%,_rgba(201,80,46,0.12),_transparent_24%)]" />
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 md:grid-cols-2 md:py-24">
         <div className="max-w-xl">
-          <p className="font-[family-name:var(--font-mono)] text-xs uppercase tracking-[0.35em] text-slate/60">
-            Toronto and the GTA
-          </p>
           <h1 className="mt-4 font-[family-name:var(--font-body)] text-6xl font-light uppercase tracking-tight text-gold md:text-7xl">
             Security
           </h1>

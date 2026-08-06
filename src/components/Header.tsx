@@ -21,17 +21,14 @@ export default function Header() {
         <div className="flex items-center justify-between gap-6 rounded-3xl border border-white/70 bg-white/80 px-5 py-3 shadow-[0_18px_50px_rgba(24,23,23,0.12)] backdrop-blur-xl supports-[backdrop-filter]:bg-white/70">
           <Link href="/" className="flex items-center gap-3 shrink-0">
             <Image src="/logo.png" alt="Iconic Security" width={44} height={57} priority />
-            <span className="font-[family-name:var(--font-display)] text-lg font-semibold tracking-[0.28em] text-ink">
-              ICONIC
-            </span>
           </Link>
-          <nav aria-label="Main navigation" className="hidden md:flex items-center gap-2 text-sm font-medium">
+          <nav aria-label="Main navigation" className="flex flex-wrap items-center justify-end gap-2 text-xs font-medium sm:text-sm">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 aria-current={pathname === link.href ? "page" : undefined}
-                className={`rounded-full px-4 py-2 transition-colors hover:bg-paper hover:text-ink ${
+                className={`rounded-full px-3 py-2 transition-colors hover:bg-paper hover:text-ink sm:px-4 ${
                   pathname === link.href ? "text-gold" : "text-slate/75"
                 }`}
               >
