@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -11,8 +12,8 @@ export default async function CareersPage() {
     <>
       <PageHero
         eyebrow="Careers"
-        title="Careers"
-        description=""
+        title="Build Your Career With Us"
+        description="We're always looking for dedicated security professionals who are committed to excellence and ready to make an impact."
         accent="none"
       />
 
@@ -33,12 +34,12 @@ export default async function CareersPage() {
             positions available only if you have valid security guard license. Only online
             applications will be considered. Thank you.
           </p>
-          <a
-            href="/careers/open-positions#application"
+          <Link
+            href="/careers/apply"
             className="mt-8 inline-flex rounded-full bg-slate px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-paper transition-colors hover:bg-gold"
           >
             Apply Now
-          </a>
+          </Link>
         </article>
 
         <article className="rounded-3xl border border-white/70 bg-white/85 p-8 shadow-[0_20px_50px_rgba(24,23,23,0.08)] backdrop-blur-sm md:p-10">
@@ -55,12 +56,12 @@ export default async function CareersPage() {
             Please apply for new job postings for security guards, patrol supervisors, and
             schedulers online from the panel on your left.
           </p>
-          <a
+          <Link
             href="/careers/open-positions"
             className="mt-8 inline-flex rounded-full bg-slate px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-paper transition-colors hover:bg-gold"
           >
             Open Positions
-          </a>
+          </Link>
         </article>
         </div>
       </section>

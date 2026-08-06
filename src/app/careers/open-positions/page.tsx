@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
-import JobApplicationForm from "@/components/JobApplicationForm";
 
 export const metadata: Metadata = {
   title: "Open Positions | Iconic Security",
@@ -37,10 +36,6 @@ export default function OpenPositionsPage() {
               Placeholder for application instructions
             </div>
           </div>
-        </div>
-
-        <div id="application" className="mt-10 rounded-3xl border border-white/70 bg-white/85 p-8 shadow-[0_20px_50px_rgba(24,23,23,0.08)] backdrop-blur-sm md:p-10">
-          <JobApplicationForm />
         </div>
       </section>
     </>

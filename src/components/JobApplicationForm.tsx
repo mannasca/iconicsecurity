@@ -22,7 +22,7 @@ function TextField({ label, required = false, type = "text", placeholder }: { la
       <input
         type={type}
         placeholder={placeholder}
-        className="w-full rounded-sm border border-line bg-white px-3 py-2 text-slate focus:outline-none focus:ring-2 focus:ring-ink"
+        className="w-full rounded-sm border border-line bg-white px-4 py-3 text-base text-slate focus:outline-none focus:ring-2 focus:ring-ink"
         required={required}
       />
     </div>
@@ -38,8 +38,8 @@ function TextAreaField({ label, required = false, placeholder }: { label: string
       </label>
       <textarea
         placeholder={placeholder}
-        rows={5}
-        className="w-full rounded-sm border border-line bg-white px-3 py-2 text-slate focus:outline-none focus:ring-2 focus:ring-ink"
+        rows={8}
+        className="w-full rounded-sm border border-line bg-white px-4 py-3 text-base text-slate focus:outline-none focus:ring-2 focus:ring-ink"
         required={required}
       />
     </div>
@@ -57,7 +57,7 @@ function SelectField({ label, options, required = false }: { label: string; opti
         <select
           defaultValue=""
           required={required}
-          className="site-select w-full appearance-none rounded-sm border border-line bg-white px-3 py-2 pr-10 text-slate focus:outline-none focus:ring-2 focus:ring-ink"
+          className="site-select w-full appearance-none rounded-sm border border-line bg-white px-4 py-3 pr-10 text-base text-slate focus:outline-none focus:ring-2 focus:ring-ink"
         >
           <option value="" disabled>
             —Please choose an option—

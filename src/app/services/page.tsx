@@ -63,7 +63,7 @@ export default async function ServicesPage() {
                 />
               </div>
               <div className="p-7">
-                <h3 className="font-[family-name:var(--font-display)] text-2xl text-ink">
+                <h3 className="font-[family-name:var(--font-display)] text-2xl text-gold">
                   {service.title}
                 </h3>
                 <p className="mt-3 text-slate/80 leading-7">{service.summary}</p>
