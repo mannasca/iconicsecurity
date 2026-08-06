@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #181717;
+  --color-paper: #ececec;
+  --color-gold: #b98a32;
+  --color-gold-light: #d4a94f;
+  --color-clay: #c9502e;
+  --color-slate: #2a2e35;
+  --color-line: #dddddd;
+
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(185, 138, 50, 0.12), transparent 32%),
+    radial-gradient(circle at top right, rgba(201, 80, 46, 0.1), transparent 24%),
+    linear-gradient(180deg, #f7f2ea 0%, #f1eee8 44%, #ececec 100%);
+  color: var(--color-slate);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(185, 138, 50, 0.22);
+  color: var(--color-ink);
+}
+
+.site-select {
+  color-scheme: light;
+}
+
+.site-select option {
+  background: #ffffff;
+  color: var(--color-slate);
+}
+
+.site-select option:checked,
+.site-select option:hover,
+.site-select option:focus {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
